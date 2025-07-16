@@ -127,7 +127,7 @@ A fully responsive, modern, and feature-rich **E-Commerce Web Application** buil
 
 ```bash
 # Clone the repo
-git clone  https://github.com/Kunal-Kumar-Soni/E-commerce-website.git
+git clone  https://github.com/Kunal-Kumar-Soni/E-commerce
 
 # Go into the folder
 cd E-commerce
@@ -144,5 +144,3 @@ npm run dev
 ## 🙋‍♂️ Author
 
 > Designed & developed with ❤️ by Kunal Kumar Soni
-
-# E_commerce
