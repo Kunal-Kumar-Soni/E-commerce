@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "./pages/cart/Cart";
-import ProductsByCategory from "./pages/Products/ProductsByCategory";
+import ProductsByCategory from "./pages/products/ProductsByCategory";
 import ScrollToTop from "./components/ScrollToTop";
 import ProductDetails from "./pages/products/ProductDetails";
 import ProductsBySearch from "./pages/products/ProductsBySearch";
