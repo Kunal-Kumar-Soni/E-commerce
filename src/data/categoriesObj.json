@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphones",
+    "image": "categories-img/smartphone.png",
+    "category" : "smartphones"
+  },
+  {
+    "id": 2,
+    "name": "Laptops",
+    "image": "categories-img/laptop.png",
+    "category" : "laptops"
+  },
+  {
+    "id": 3,
+    "name": "Fragrances",
+    "image": "categories-img/perfume.png",
+    "category" : "fragrances"
+    
+  },
+  {
+    "id": 4,
+    "name": "Sunglasses",
+    "image": "categories-img/sunglass.png",
+    "category" : "sunglasses"
+  },
+  {
+    "id": 5,
+    "name": "Groceries",
+    "image": "categories-img/groceries.png",
+    "category" : "groceries"
+  },
+  {
+    "id": 6,
+    "name": "Home Decoration",
+    "image": "categories-img/decoration.png",
+    "category" : "home-decoration"
+  },
+  {
+    "id": 7,
+    "name": "Furniture",
+    "image": "categories-img/furniture.png",
+    "category" : "furniture"
+  }
+]

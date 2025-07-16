@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* index.css ya App.css mein add karo */
+.scrollbar-hidden-always {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+.scrollbar-hidden-always::-webkit-scrollbar {
+  display: none;
+}
+
+/* carousel.css */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.dark .swiper-pagination-bullet {
+  background-color: white !important; /* dark mode */
+}
+
+/* dark mode */
+.dark body {
+  background-color: #111827;
+}
+
+body {
+  background-color: #f3f4f6;
+}
