@@ -51,7 +51,21 @@ function App() {
           <Route path="/products/:id" element={<ProductDetails />} />
         </Routes>
         <Footer />
-        <ToastContainer position="top-right" autoClose={3000} theme="dark" />
+        {/* Toast notifications */}
+        <ToastContainer
+          position="top-center"
+          autoClose={2500}
+          hideProgressBar={false}
+          closeOnClick
+          pauseOnHover
+          draggable
+          pauseOnFocusLoss
+          closeButton={false}
+          toastClassName={() =>
+            "relative min-h-[38px] h-auto mb-4 mt-3 px-3 py-3 flex items-center rounded-md text-sm font-medium shadow-lg bg-white text-black border border-slate-200 dark:bg-[#1e293b] dark:text-sky-100 dark:border-slate-700 overflow-hidden"
+          }
+          progressClassName="bg-sky-500 dark:bg-sky-400 h-1 rounded-full absolute bottom-0 left-2 right-2"
+        />
       </BrowserRouter>
     </div>
   );

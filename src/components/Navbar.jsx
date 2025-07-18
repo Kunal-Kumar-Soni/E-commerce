@@ -18,6 +18,8 @@ function Navbar({ setIsOpenSidebar, modes, setModes }) {
 
   const handleSearch = (e) => {
     e.preventDefault();
+    if (searchText.trim() === "") return;
+
     navigation(`/products/search/${searchText}`);
     setTimeout(() => {
       document.activeElement.blur();
