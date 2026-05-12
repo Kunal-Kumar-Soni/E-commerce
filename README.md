@@ -141,6 +141,6 @@ npm run dev
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
-> Designed & developed with ❤️ by Kunal Kumar Soni
+Kunal Kumar Soni
