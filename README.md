@@ -1,10 +1,10 @@
-# 🛒 ShopKaro E-Commerce App
+# ShopKaro E-Commerce App
 
 A fully responsive, modern, and feature-rich **E-Commerce Web Application** built using **React**, **Redux Toolkit**, and **Tailwind CSS**. It supports product browsing, category filtering, search, cart management, dark/light mode, and error handling — all wrapped in a clean and scalable folder structure.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🌓 **Dark / Light Mode Toggle**  
   Switch between light and dark themes, saved in `localStorage`.
@@ -47,7 +47,7 @@ A fully responsive, modern, and feature-rich **E-Commerce Web Application** buil
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 /src
@@ -109,7 +109,7 @@ A fully responsive, modern, and feature-rich **E-Commerce Web Application** buil
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology         | Purpose / Usage                               |
 | ------------------ | --------------------------------------------- |
@@ -123,7 +123,7 @@ A fully responsive, modern, and feature-rich **E-Commerce Web Application** buil
 
 ---
 
-## 🧪 How to Run Locally
+## How to Run Locally
 
 ```bash
 # Clone the repo
